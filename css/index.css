@@ -1,0 +1,43 @@
+@charset "utf-8";
+body{font-size:14px;font-family:"黑体";background:#E3E3E5 url(../image/bg.jpg)  50% top scroll no-repeat;color:#5d5d5d;}
+
+.header{width: 1000px; margin: 0 auto;}
+
+
+
+.nav{width: 1000px; margin: 20px auto;}
+.nav ul li{width: 150px;height: 30px;margin: 10px 0px 10px 25px;text-align: center;display: inline-block;}
+.nav ul li a{width: 120px; height: 25px; font-size: 18px; background: silver; border-radius: 20px;}
+.nav ul li a.photo1{font-size: 25px;}
+.nav ul li a.riji1{font-size: 25px;}
+.nav ul li a.jianjie1{font-size: 25px;}
+.nav ul li a.neixin1{font-size: 25px;}
+
+
+.right{float: right;border-bottom: 2px solid;border-left: 1px solid;border-right: 1px solid;border-top: 2px solid; width: 200px;background-color: white;margin: 0px 320px auto;}
+.right h3{text-align: left; border-bottom: 2px solid;}
+.right img{width: 100%;}
+
+.right_bottom{float: right;width: 200px;height: 80px;text-align: center;background-color: white;}
+.right_bottom h4{width: 200px;border-top: 2px solid;border-bottom: 1px solid;border-bottom-color: red;}
+.index_footer{text-align: center; width: 1000px;height: 50px;margin: 550px auto 10px auto ;border-top: 1px solid silver;font-size: 12px;}
+
+
+.nav ul li a.shouye1{font-size: 25px;}
+
+
+/*photo*/
+.photo_composing{width: 1000px; height:780px; background-color: white;margin: 10px auto;}
+.photo_footer{text-align: center; width: 1000px;height: 50px;margin: 1px auto;border-top: 1px solid silver;font-size: 12px;}
+
+
+/*jianjie*/
+
+.content_jianjie{ width: 580px;background-color: white; margin: 50px 300px 10px 535px;}
+
+.jianjie_footer{text-align: center; width: 1000px;height: 50px;margin: 60px auto;border-top: 1px solid silver;font-size: 12px;}
+
+.riji_footer{text-align: center; width: 1000px;height: 50px;margin: 550px auto 10px auto ;border-top: 1px solid silver;font-size: 12px;}
+
+.neixin_footer{text-align: center; width: 1000px;height: 50px;margin: 550px auto 10px auto ;border-top: 1px solid silver;font-size: 12px;}
+

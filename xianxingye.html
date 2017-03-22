@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>招君与卿先行页</title>
+    <script language="javascript" type="text/javascript">
+    function check(){
+        if (form1.xz.value=="Y") {
+            open("index.html");
+        }
+        else{
+            close();
+        }
+        return true;
+    }
+    </script>
+</head>
+<body bgcolor="#d1d1d3">
+    <form method="post" name="form1" onsubmit="return check()">
+        <table border="3" align="center" width="30%">
+            <h2 align="center" ><font color="red">你是否真心想关注招君主页？</font></h2><p/>
+            <tr align="center" bgcolor="silver"><td><select size="1" name="xz">
+                <option value="Y" selected>是</option>
+                <option value="N">否</option></select></td>
+                <td><input type="submit" value="确定"></td>
+            </tr>
+        </table>
+    </form>
+</font>
+</body>
+</html>
