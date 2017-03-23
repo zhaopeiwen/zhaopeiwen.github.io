@@ -1,69 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="css/index.css"/>
-<link rel="stylesheet" href="css/style.css"/>
-    <title>招君与卿</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<title>招君与卿先行页</title>
+    <script language="javascript" type="text/javascript">
+    function check(){
+        if (form1.xz.value=="Y") {
+            open("index_1.html");
+        }
+        else{
+            close();
+        }
+        return true;
+    }
+    </script>
 </head>
-<body>
+<body bgcolor="#d1d1d3" class="body2">
+<div class="index_xianxing">
 
-    <!--header start-->
-    <div class="header">
-        <h1 align="center">Hi,关注招君的你！</h1>
-        <p align="left">“好景不会每日常在，天梯不可只往上爬；筑得起，人应该接受，都有日倒下..”</p>
-        <p align="right">“因为一个人，喜欢一首歌。”-------《喜帖街》</p>
+</div>
+
+<div  class="index_one">
+    <div class="index_one1">
+    
     </div>
-    <!--header end-->
-
-
-    <!--nav start-->
-    <div class="nav">
-        <ul>
-            <li><a href="shouye.html">招君的首页</a></li>
-            <li><a href="neixin.html">招君的独白</a></li>
-            <li><a href="riji.html">招君的日记</a></li>
-            <li><a href="photo.html">招君的照片</a></li>
-            <li><a href="jianjie.html">招君的资料</a></li>
-        </ul>
+    <div class="index_one2">
+        <form method="post" name="form1" onsubmit="return check()">
+            <table class="default" border="3" align="center" width="30%">
+                <h2 align="center"><font>你真心想关注招君主页？</font></h2><p/>
+                <tr bgcolor="silver"><td><select size="1" name="xz">
+                    <option value="Y" selected>是</option>
+                    <option value="N">否</option></select></td>
+                    <td><input type="submit" value="确定"></td>
+                </tr>
+            </table>
+        </form>
     </div>
-    <!--nav end-->
 
 
-    <!--content start-->
-    <div>
+    <div class="index_one3">
         
     </div>
-    <!--content end-->
+
+</div>
 
 
-    <!--right shart-->
-    <div class="right">
-        <h3>&nbsp;↓↓↓ 关于招君 ↓↓↓</h3>
-        <img src="image/my.jpg">
-        <br>名字：招沛文</br>
-        <br>职业：哈商大 15级大二学生</br>
-        <br>特点：足球热爱者，程序员。</br>
-        <!--lianjie start-->
-        <div class="right_bottom">
-            <h4>深入了解招君:</h4>
-            <p>
-                <a href="http://weibo.com/zhaoaichen?refer_flag=1001030101_&is_all=1" title="招君微博">招君个人微博</a>&nbsp;
-                <a href="http://user.qzone.qq.com/709066927/main" title="招君QQ空间">招君QQ空间</a>
-            </p>
-        </div>
-    <!--lianjie end-->
-    </div>
-    <!--right end-->
+<div class="index_two">
+    
+</div>
 
 
-
-
-
-    <!--footer start-->
-    <div class="index_footer">
-        <br align="center">联系方式： 手机：13030156966 || QQ：709066927 </br>
-    </div>
-    <!--footer end-->
+</font>
 </body>
 </html>

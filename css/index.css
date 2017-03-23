@@ -1,5 +1,5 @@
 @charset "utf-8";
-body{font-size:14px;font-family:"黑体";background:#E3E3E5 url(../image/bg.jpg)  50% top scroll no-repeat;color:#5d5d5d;}
+.body1{font-size:14px;font-family:"黑体";background:#E3E3E5 url(../image/bg.jpg)  50% top scroll no-repeat;color:#5d5d5d;}
 
 .header{width: 1000px; margin: 0 auto;}
 
@@ -14,20 +14,20 @@ body{font-size:14px;font-family:"黑体";background:#E3E3E5 url(../image/bg.jpg)
 .nav ul li a.neixin1{font-size: 25px;}
 
 
-.right{float: right;border-bottom: 2px solid;border-left: 1px solid;border-right: 1px solid;border-top: 2px solid; width: 200px;background-color: white;margin: 0px 320px auto;}
+.right{float: right;border-bottom: 2px solid;border-left: 1px solid;border-right: 1px solid;border-top: 2px solid; width: 200px;background-color: white;margin: 0px 320px auto;border-top-left-radius: 20px;border-top-right-radius: 20px;}
 .right h3{text-align: left; border-bottom: 2px solid;}
 .right img{width: 100%;}
 
 .right_bottom{float: right;width: 200px;height: 80px;text-align: center;background-color: white;}
 .right_bottom h4{width: 200px;border-top: 2px solid;border-bottom: 1px solid;border-bottom-color: red;}
-.index_footer{text-align: center; width: 1000px;height: 50px;margin: 550px auto 10px auto ;border-top: 1px solid silver;font-size: 12px;}
+.index_1_footer{text-align: center; width: 1000px;height: 50px;margin: 550px auto 10px auto ;border-top: 1px solid silver;font-size: 12px;}
 
 
 .nav ul li a.shouye1{font-size: 25px;}
 
 
 /*photo*/
-.photo_composing{width: 1000px; height:780px; background-color: white;margin: 10px auto;}
+.photo_composing{width: 1000px; height:780px; background-color: white;margin: 10px auto;border-radius: 50px;}
 .photo_footer{text-align: center; width: 1000px;height: 50px;margin: 1px auto;border-top: 1px solid silver;font-size: 12px;}
 
 
@@ -40,4 +40,37 @@ body{font-size:14px;font-family:"黑体";background:#E3E3E5 url(../image/bg.jpg)
 .riji_footer{text-align: center; width: 1000px;height: 50px;margin: 550px auto 10px auto ;border-top: 1px solid silver;font-size: 12px;}
 
 .neixin_footer{text-align: center; width: 1000px;height: 50px;margin: 550px auto 10px auto ;border-top: 1px solid silver;font-size: 12px;}
+
+/*index的css页面*/
+.body2{ width:1000px;height: 500px; background:#E3E3E5;margin: 17px auto;}
+.index_xianxing{float: left;background-color: navy;width: 300px;height: 800px;margin: 0px auto;border-top-left-radius: 100px;border-bottom-left-radius: 100px;}
+.index_one{float: left;background-color: yellow;width: 400px;height: 800px;}
+
+.index_one1{float: left;background-color: navy;width: 400px; height: 340px;}
+.index_one2{float: left;width: 400px;height: 120px;}
+.index_one3{float: left;background-color: #FFB6C1;width: 400px;height: 340px;}
+
+.index_two{float: left; width: 300px;height: 800px; background-color: #FFB6C1;border-top-right-radius: 100px;border-bottom-right-radius: 100px;}
+
+
+.rj_main{width:520px;height: 800px; margin:0px 0px 5px 370px;  background-color: yellow;}
+
+.rj1{border-bottom: 3px solid;}
+.rj1 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.d1_text_1{ width:300px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.rj2{border-bottom: 3px solid;}
+.rj2 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.rj2 dl dd{ width:300px;height: 127px; overflow:hidden;margin-left:5px;background-color: red;}
+
+.rj3{border-bottom: 3px solid;}
+.rj3 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.rj3 dl dd{ width:300px;height: 127px; overflow:hidden;margin-left:5px;background-color: red;}
+
+.rj4{border-bottom: 3px solid;}
+.rj4 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.rj4 dl dd{width:300px;height: 127px; overflow:hidden;margin-left:5px;background-color: red;}
+
+.rj_main h3{text-align: left;}
+.rj_main h5{color: silver;}
 
