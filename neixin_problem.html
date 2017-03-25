@@ -5,6 +5,19 @@
 <link rel="stylesheet" href="css/index.css"/>
 <link rel="stylesheet" href="css/style.css"/>
     <title>招君与卿</title>
+    <script language="javascript" type="text/javascript">
+    function check(){
+        if (form1.password.value=="1219") {
+            open("neixin.html");
+        }
+        else{
+            alert("The password is incorrect");
+            form1.password.focus();
+            return false;
+        }
+        return true;
+    }
+    </script>
 </head>
 <body class="body1">
 
@@ -20,8 +33,8 @@
     <!--nav start-->
     <div class="nav">
         <ul>
-            <li><a href="shouye.html" class="shouye1">招君的首页</a></li>
-            <li><a href="neixin_problem.html">招君的独白</a></li>
+            <li><a href="shouye.html">招君的首页</a></li>
+            <li><a href="neixin_problem.html" class="neixin1">招君的独白</a></li>
             <li><a href="riji.html">招君的日记</a></li>
             <li><a href="photo.html">招君的照片</a></li>
             <li><a href="jianjie.html">招君的资料</a></li>
@@ -29,23 +42,28 @@
     </div>
     <!--nav end-->
 
-
     <!--content start-->
-    <div class="bucai">
-        <h2>本人不才，首页尚未构思完成，故现仅提供其余功能~</h2>
+    <div class="problem">
+        <form method="post" name="form1" onsubmit="return check()">
+            <table class="default_1" border="3" align="center" width="30%">
+                <h2 align="center">我忘不了那个她&nbsp;的生日（月和日：纯四个数字）？</h2><p/>
+                <tr bgcolor="silver"><td>
+                    <input type="password" name="password" maxlength="4">
+                </td>
+                    <td><input type="submit" value="确定"></td>
+                </tr>
+            </table>
+        </form>
     </div>
-    <!--content end-->
 
-
-    <!--right shart-->
-    <div class="right">
+    <div class="right1">
         <h3>&nbsp;↓↓↓ 关于招君 ↓↓↓</h3>
         <img src="image/my.jpg">
         <br>名字：招沛文</br>
         <br>职业：哈商大 15级大二学生</br>
         <br>特点：足球热爱者，程序员。</br>
         <!--lianjie start-->
-        <div class="right_bottom">
+        <div class="right_bottom1">
             <h4>深入了解招君:</h4>
             <p>
                 <a href="http://weibo.com/zhaoaichen?refer_flag=1001030101_&is_all=1" title="招君微博">招君个人微博</a>&nbsp;
@@ -54,14 +72,11 @@
         </div>
     <!--lianjie end-->
     </div>
-    <!--right end-->
-
-
 
 
 
     <!--footer start-->
-    <div class="shouye_footer">
+    <div class="neixin_problem_footer">
         <br align="center">联系方式： 手机：13030156966 || QQ：709066927 </br>
     </div>
     <!--footer end-->

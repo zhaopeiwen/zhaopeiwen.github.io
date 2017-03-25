@@ -1,0 +1,133 @@
+@charset "utf-8";
+.body1{font-size:14px;font-family:"黑体";background:#E3E3E5 url(../image/bg.jpg)  50% top scroll no-repeat;color:#5d5d5d;}
+
+.header{width: 1000px; margin: 0 auto;}
+
+
+
+.nav{width: 1000px; margin: 20px auto;}
+.nav ul li{width: 150px;height: 30px;margin: 10px 0px 10px 25px;text-align: center;display: inline-block;}
+.nav ul li a{width: 120px; height: 25px; font-size: 18px; background: silver; border-radius: 20px;}
+.nav ul li a.photo1{font-size: 25px;}
+.nav ul li a.riji1{font-size: 25px;}
+.nav ul li a.jianjie1{font-size: 25px;}
+.nav ul li a.neixin1{font-size: 25px;}
+
+
+/*鼠标变色*/
+.nav a:hover{background-color: red;color: black;font-size: 25px;}
+.next_page a:hover{color: red;}
+
+
+
+/*侧栏*/
+.right{position: fixed;right: 0px;top: 200px; border-bottom: 2px solid;border-left: 1px solid;border-right: 1px solid;border-top: 2px solid; width: 200px;background-color: white;border-top-left-radius: 20px;border-top-right-radius: 20px; }
+.right h3{text-align: left; border-bottom: 2px solid;}
+.right img{width: 100%;}
+
+.right_bottom{float: right;width: 200px;height: 80px;text-align: center;background-color: white;}
+.right_bottom h4{width: 200px;border-top: 2px solid;border-bottom: 1px solid;border-bottom-color: red;}
+.index_1_footer{text-align: center; width: 1000px;height: 50px;margin: 300px auto ;border-top: 1px solid silver;font-size: 12px;}
+
+
+.right1{position: fixed;right: 0px;top: 200px; border-bottom: 2px solid;border-left: 1px solid;border-right: 1px solid;border-top: 2px solid; width: 200px;background-color: white;border-top-left-radius: 20px;border-top-right-radius: 20px; }
+.right1 h3{text-align: left; border-bottom: 2px solid;}
+.right1 img{width: 100%;}
+
+.right_bottom1{float: right;width: 200px;height: 80px;text-align: center;background-color: white;}
+.right_bottom1 h4{width: 200px;border-top: 2px solid;border-bottom: 1px solid;border-bottom-color: red;}
+
+
+.nav ul li a.shouye1{font-size: 25px;}
+
+
+/*photo*/
+.photo_composing{width: 1000px; height:780px; background-color: white;margin: 10px auto;border-radius: 50px;}
+.photo_footer{text-align: center; width: 1000px;height: 50px;margin: 1px auto;border-top: 1px solid silver;font-size: 12px;}
+
+
+/*jianjie*/
+
+.content_jianjie{ width: 580px;background-color: white; margin: 0px auto;}
+
+.jianjie_footer{text-align: center; width: 1000px;height: 50px;margin: 170px auto;border-top: 1px solid silver;font-size: 12px;}
+
+.riji_footer{text-align: center; width: 1000px;height: 50px;margin: 150px auto 10px auto ;border-top: 1px solid silver;font-size: 12px;}
+
+.neixin_footer{text-align: center; width: 1000px;height: 50px;margin: 180px auto;border-top: 1px solid silver;font-size: 12px;}
+
+/*index的css页面*/
+.body2{ width:1000px;height: 500px; background:#E3E3E5;margin: 17px auto;}
+.index_xianxing{float: left;background-color: navy;width: 300px;height: 800px;margin: 0px auto;border-top-left-radius: 100px;border-bottom-left-radius: 100px;}
+.index_one{float: left;background-color: yellow;width: 400px;height: 800px;}
+
+.index_one1{float: left;background-color: navy;width: 400px; height: 340px;}
+.index_one2{float: left;width: 400px;height: 120px;}
+.index_one3{float: left;background-color: #FFB6C1;width: 400px;height: 340px;}
+
+.index_two{float: left; width: 300px;height: 800px; background-color: #FFB6C1;border-top-right-radius: 100px;border-bottom-right-radius: 100px;}
+
+
+.rj_main{width:520px;height: 800px; margin:0px auto;  background-color: yellow;}
+
+.rj1{border-bottom: 3px solid;}
+.rj1 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.d1_text_1{ width:300px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.rj2{border-bottom: 3px solid;}
+.rj2 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.rj2 dl dd{ width:300px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.rj3{border-bottom: 3px solid;}
+.rj3 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.rj3 dl dd{ width:300px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.rj4{border-bottom: 3px solid;}
+.rj4 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.rj4 dl dd{width:300px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.rj_main h3{text-align: left;}
+.rj_main h5{color: silver;}
+
+
+
+/*neixin_problem*/
+
+.problem {width: 500px; height: 100px;margin: 150px auto;}
+.neixin_problem_footer{text-align: center; width: 1000px;height: 50px;margin: 390px auto ;border-top: 1px solid silver;font-size: 12px;}
+
+
+
+/*neixin*/
+.wz_main{width:915px;height: 1200px; margin:0px auto;  background-color: silver;}
+
+.wz1{border-bottom: 3px solid;}
+.wz1 dl dt img{float:left;width:200px;height:110px;margin-left:10px;display:block;border:1px solid #ccc;}
+.z1_text_1{ width:700px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.wz2{border-bottom: 3px solid;}
+.wz2 dl dt{float:left;width:200px;height:60px;margin-left:10px;display:block;border:1px solid #ccc;}
+.wz2 dl dd{ width:700px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.wz3{border-bottom: 3px solid;}
+.wz3 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.wz3 dl dd{ width:700px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.wz4{border-bottom: 3px solid;}
+.wz4 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.wz4 dl dd{width:700px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.wz5{border-bottom: 3px solid;}
+.wz5 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.wz5 dl dd{width:700px;height: 127px; overflow:hidden;margin-left:5px;}
+
+.wz6{border-bottom: 3px solid;}
+.wz6 dl dt{float:left;width:200px;height:127px;margin-left:10px;display:block;border:1px solid #ccc;}
+.wz6 dl dd{width:700px;height: 180px; overflow:hidden;margin-left:5px;}
+
+.wz_main h3{text-align: left;}
+.wz_main h5{color: silver;}
+
+.bucai{text-align: center;margin: 300px auto;}
+
+.shouye_footer{text-align: center; width: 1000px;height: 50px;margin: 300px auto ;border-top: 1px solid silver;font-size: 12px;}
