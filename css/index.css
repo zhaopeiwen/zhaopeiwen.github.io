@@ -48,13 +48,13 @@
 
 /*jianjie*/
 
-.content_jianjie{ width: 580px;height: 550px; margin: 50px auto;}
+.content_jianjie{ width: 580px;height: 430px; margin: 50px auto;}
 
-.jianjie_footer{text-align: center; width: 1000px;height: 50px;margin: 0px auto;border-top: 1px solid silver;font-size: 12px;}
+.jianjie_footer{text-align: center; width: 1000px;height: 30px;margin: 0px auto;border-top: 1px solid silver;font-size: 12px;}
 
 .riji_footer{text-align: center; width: 1000px;margin: 0px auto ;border-top: 1px solid silver;font-size: 12px;}
 
-.neixin_footer{text-align: center; width: 1000px;height: 50px;margin: 180px auto;border-top: 1px solid silver;font-size: 12px;}
+.neixin_footer{text-align: center; width: 1000px;height: 10px;margin: 40px auto;border-top: 1px solid silver;font-size: 12px;}
 
 /*index的css页面*/
 .body2{ width:1000px;height: 500px; background:#E3E3E5;margin: 17px auto;}
@@ -93,7 +93,7 @@
 
 /*neixin_problem*/
 
-.problem {width: 500px; height: 350px;margin: 150px auto;}
+.problem {width: 500px; height: 230px;margin: 150px auto;}
 .neixin_problem_footer{text-align: center; width: 1000px;height: 50px;margin: 0px auto ;border-top: 1px solid silver;font-size: 12px;}
 
 
@@ -128,6 +128,6 @@
 .wz_main h3{text-align: left;}
 .wz_main h5{color: silver;}
 
-.bucai{text-align: center;height: 50px; margin: 300px auto;}
+.bucai{text-align: center;height: 50px; margin: 240px auto;}
 
 .shouye_footer{text-align: center; width: 1000px;height: 50px;margin: 0px auto ;border-top: 1px solid silver;font-size: 12px;}
