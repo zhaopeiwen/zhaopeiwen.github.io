@@ -126,8 +126,17 @@
 .wz6 dl dd{width:700px;height: 180px; overflow:hidden;margin-left:5px;}
 
 .wz_main h3{text-align: left;}
-.wz_main h5{color: silver;}
+.wz_main h6{color: black;float: right;bottom: 0px;}
 
 .bucai{text-align: center;height: 50px; margin: 240px auto;}
 
 .shouye_footer{text-align: center; width: 1000px;height: 50px;margin: 0px auto ;border-top: 1px solid silver;font-size: 12px;}
+
+
+/*宣誓板*/
+.wangjimain{position: relative; margin: -537px auto;left: 0px;position: fixed;}
+.wangji{width: 400px;height: 440px;float: right;background: url(../image/xuanshi.jpg); position: relative;top:-500px;}
+#t_d{position: relative; margin: 347px auto ;font-size: 30px;left: 70px;position: absolute;color: gold;}
+#t_h{position: absolute; margin: 347px auto ;font-size: 30px;left: 140px;position: absolute;color: gold;}
+#t_m{position: absolute; margin: 347px auto ;font-size: 30px;left: 210px;position: absolute;color: gold;}
+#t_s{position: absolute; margin: 347px auto ;font-size: 30px;left: 280px;position: absolute;color: gold;}
