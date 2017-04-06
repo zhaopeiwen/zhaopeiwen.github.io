@@ -20,6 +20,18 @@
         document.getElementById("t_s").innerHTML = s + "秒";
     }
     setInterval(getRTime,1000);    
+
+    function showdiv(){
+        document.getElementById("hpn").style.display = "block";
+        document.getElementById("strHref").href = "javascript:hidediv();";
+        document.getElementById("strHref").innerHTML = "收起";
+    }
+    function hidediv(){
+            document.getElementById("hpn").style.display = "none";
+            document.getElementById("strHref").href = "javascript:showdiv();";
+            document.getElementById("strHref").innerHTML = "阅读全文";        
+    } 
+
 </script>
 </head>
 <body class="body1">
@@ -123,18 +135,22 @@
             </dl>
         </div>
 
+        <!--right shart-->
+        <div class="next_page" align="center">
+             <h4><a href="neixin_1.html" class="a_style">上一页</a>&nbsp;<a href="neixin_3.html" class="a_style">下一页</a></h4>
+        </div>
+        <!--right end-->
+        <!--footer start-->
+        <div class="neixin_footer">
+            <br align="center">联系方式： 手机：13030156966 || QQ：709066927 </br>
+        </div>
+        <!--footer end-->
+
     </div>
     <!--content end-->
 
 
     <!--right shart-->
-
-
-    <div class="next_page" align="center">
-        <h4><a href="neixin_1.html">上一页</a>&nbsp;<a href="neixin_3.html">下一页</a></h4>
-    </div>
-    <!--right end-->
-
 
     <div class="wangjimain">
         <div class="wangji">
@@ -145,12 +161,5 @@
         </div>
     </div>
 
-
-
-    <!--footer start-->
-    <div class="neixin_footer">
-        <br align="center">联系方式： 手机：13030156966 || QQ：709066927 </br>
-    </div>
-    <!--footer end-->
 </body>
 </html>
