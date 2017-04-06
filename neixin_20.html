@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/index.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+    <title>招君与卿</title>
+<script type="text/javascript">
+    function getRTime(){
+        var StartTime = new Date('2017/3/26 00:00:00');//开始时间
+        var NowTime = new Date();
+        var t = NowTime.getTime() - StartTime.getTime();
+        var d = Math.floor(t/1000/60/60/24);
+        var h = Math.floor(t/1000/60/60%24);
+        var m = Math.floor(t/1000/60%60);
+        var s = Math.floor(t/1000%60);
+        document.getElementById("t_d").innerHTML = d + "天";
+        document.getElementById("t_h").innerHTML = h + "时";
+        document.getElementById("t_m").innerHTML = m + "分";
+        document.getElementById("t_s").innerHTML = s + "秒";
+    }
+    setInterval(getRTime,1000);   
+
+/*第一个阅读全文*/
+    function showdiv(){
+        document.getElementById("hpn").style.display = "block";
+        document.getElementById("strHref").href = "javascript:hidediv();";
+        document.getElementById("strHref").innerHTML = "收起";
+    }
+    function hidediv(){
+        document.getElementById("hpn").style.display = "none";
+        document.getElementById("strHref").href = "javascript:showdiv();";
+        document.getElementById("strHref").innerHTML = "阅读全文";        
+    } 
+/*第二个阅读全文*/
+    function showdiv1(){
+        document.getElementById("hpn1").style.display = "block";
+        document.getElementById("strHref1").href = "javascript:hidediv1();";
+        document.getElementById("strHref1").innerHTML = "收起";
+    }
+    function hidediv1(){
+        document.getElementById("hpn1").style.display = "none";
+        document.getElementById("strHref1").href = "javascript:showdiv1();";
+        document.getElementById("strHref1").innerHTML = "阅读全文";        
+    } 
+/*第三个阅读全文*/
+    function showdiv2(){
+        document.getElementById("hpn2").style.display = "block";
+        document.getElementById("strHref2").href = "javascript:hidediv2();";
+        document.getElementById("strHref2").innerHTML = "收起";
+    }
+    function hidediv2(){
+        document.getElementById("hpn2").style.display = "none";
+        document.getElementById("strHref2").href = "javascript:showdiv2();";
+        document.getElementById("strHref2").innerHTML = "更多照片";
+    }
+</script>
+
+
+
+</head>
+<body class="body1">
+
+    <!--header start-->
+    <div class="header">
+        <h1 align="center">Hi,关注招君的你！</h1>
+        <p align="left">“好景不会每日常在，天梯不可只往上爬；筑得起，人应该接受，都有日倒下..”</p>
+        <p align="right">“因为一个人，喜欢一首歌。”-------《喜帖街》</p>
+    </div>
+    <!--header end-->
+
+
+    <!--nav start-->
+    <div class="nav">
+        <ul>
+            <li><a href="shouye.html">招君的首页</a></li>
+            <li><a href="neixin_problem.html" class="neixin1">招君的独白</a></li>
+            <li><a href="riji.html">招君的日记</a></li>
+            <li><a href="photo.html">招君的照片</a></li>
+            <li><a href="jianjie.html">招君的资料</a></li>
+        </ul>
+    </div>
+    <!--nav end-->
+
+    <div class="wz_main">
+        <div class="wz1">
+            <h3>牡丹江</h3>
+            <dl>
+                <dt><img src="image/4_2/31.jpg" width="200px" height="130px"></dt>
+                <dd class="z1_text_1">
+                    发现牡丹江的美女数量比哈尔滨的还要多嘢...<br/>
+                    昨晚回到酒店洗了鞋子，洗了澡，就睡觉了。。。<br/>
+                    嗨呀，今天来到牡丹峰，坐公交车要1个小时左右到达，不用门票...<br/>
+                    ------------------------------------------------------------少不入川&nbsp;<p/>
+                    <h6>上传者：招君  日期：2017.4.3  地点：牡丹江</h6>
+                </dd>
+                <div id="hpn" style="display: none;">
+                    <dd>
+                        <p/>
+                        <img src="image/4_2/31.jpg" style="width: 45%">
+                        <img src="image/4_2/32.jpg" style="width: 45%">
+                        <img src="image/4_2/33.jpg" style="width: 91%">
+                        <img src="image/4_2/34.jpg" style="width: 91%"><p/>                        
+                        <p/>
+                        -----------------------------------------------------------------------------------Don't allow fear of failure to stop you.&nbsp;<p/>
+     
+                    </dd>
+                </div>
+                <h5 class="slide">
+                    <a href="javascript:showdiv()" id="strHref" class="btn-slide">阅读全文</a>
+                </h5>
+            </dl>
+        </div>
+
+        <div class="wz2">
+            <h3>横道河子</h3>
+            <dl>
+                <dt><img src="image/4_2/23.jpg" width="200px" height="130px"></dt>
+                <dd class="z1_text_1">
+                    这一天，很梦幻<br/>
+                    很累很累<br/>
+                    罗总说，不枉此行！~<br/>
+                    -------------------------------------少不入川<br/>&nbsp;<p/>
+                    <h6>上传者：招君  日期：2017.4.2  地点：黑龙江横道河子</h6>
+                </dd>
+                <div id="hpn1" style="display: none;">
+                    <dd>
+                        <p/>早上来到横道河子，天气很冷，在镇子上走了走，就赶紧找了一个早餐店进去暖暖身子，饱饱肚子~
+                        <br/>我们尝试着自己去沿着传说中的仙境前去佛手山<p/><a href="#">点击下面按钮播放视频</a><br/>
+                        <video  controls="controls" loop="loop" style="width: 30% ;"><source src="video/1.mp4"></video><p/>
+                        但是走到10分钟的时候，大雪封路，实在难以走上去了。。。只好返程~<br/>我们来到圣教堂，等了半个小时，终于等到大爷过来开门~（当地人很热情，告知看门大爷去串门了，等下就来~）在教堂外面，感受阳光洒在身上的暖和~感觉阳光被我们玩坏了。。。。<p/>
+                        <img src="image/4_2/bg1.jpg" style="width: 91%">
+                        <img src="image/4_2/13.jpg" style="width: 45%">
+                        <img src="image/4_2/14.jpg" style="width: 45%"><p/>
+                        漫步在俄罗斯风情街，廖无人烟的景象让人嘘唏。。。。与右图中央大街对比一下....<p/>
+                        <img src="image/4_2/17.jpg" style="width: 45%">
+                        <img src="image/4_2/11.jpg" style="width: 45%"><p/>
+                        早上9点，来到传说中的机车库<p/>
+                        <img src="image/4_2/17_1.jpg" style="width: 45%">
+                        <img src="image/4_2/17_2.jpg" style="width: 45%"><p/>    
+                        早上10点，向佛手山进攻，山路很陡峭，估计有70°的斜坡了？<p/>
+                        <img src="image/4_2/18.jpg" style="width: 45%">
+                        <img src="image/4_2/19.jpg" style="width: 45%"><p/>  
+                        兜兜转转爬到佛手山山顶,山顶没有平台，只是岩石堆积起来的石堆<p/>
+                        <img src="image/4_2/20.jpg" style="width: 45%">
+                        <img src="image/4_2/21.jpg" style="width: 45%">
+                        <img src="image/4_2/21_1.jpg" style="width: 91%">
+                        <img src="image/4_2/21_2.jpg" style="width: 91%"><p/>  
+                        时间才来到了早上11点，正当我们正愁在下午4点半的火车去牡丹江之前没事干的时候，<p/>有三位驴友说要去探险，吓得罗总急忙说：我们也去！！！<p/><a href="#">点击下面按钮播放视频</a><br/>
+                        <video controls="controls" loop="loop" style="width: 30%"><source src="video/2.mp4"></video><p/>
+                        地上积雪起码20cm了，寸步难行，只能走在他们后面，踩着他们走过的脚印，那儿的雪地，以至于不会脚塌下去<p/>
+                        <img src="image/4_2/25.jpg" style="width: 45%">
+                        <img src="image/4_2/26.jpg" style="width: 45%">
+                        <img src="image/4_2/29.jpg" style="width: 45%">
+                        <img src="image/4_2/28.jpg" style="width: 45%">
+                        <img src="image/4_2/30.jpg" style="width: 91%"><p/>   
+                        走了一个多小时，驴友发现走错路了，无奈还是要一直往前走<p/><a href="#">点击下面按钮播放视频</a><br/>
+                        <video controls="controls" loop="loop" style="width: 50%"><source src="video/3.mp4"></video><p/>
+                        终于走出雪山了，历时超过3个小时，太累了，鞋子全湿了！<p/><a href="#">点击下面按钮播放视频</a><br/>
+                        <video controls="controls" loop="loop" style="width: 30%"><source src="video/4.mp4"></video>
+                        <p/>
+                        -----------------------------------------------------------------------------------Don't allow fear of failure to stop you.&nbsp;<p/>
+     
+                    </dd>
+                </div>
+                <h5 class="slide1">
+                    <a href="javascript:showdiv1()" id="strHref1" class="btn-slide1">阅读全文</a>
+                </h5>
+            </dl>
+        </div>
+
+        <div class="wz3">
+            <h3>看了一场电影</h3>
+            <dl>
+                <dt><img src="image/4_2/chepiao.jpg" width="200px" height="130px"></dt>
+                <dd class="z1_text_1">
+                    由于是凌晨2点的火车去横道河子<br/>
+                    所以晚上7点半在中央大街玩到了8点半~<br/>
+                    去吃点东西，9点半去看一场电影，到12点半步行去哈站坐火车~<br/>
+                    -----------------------------------少不入川<br/>&nbsp;<p/>
+                    <h6>上传者：招君  日期：2017.4.1  地点：中央大街</h6>
+                </dd>
+            </dl>
+        </div>
+
+        <div class="wz4">
+            <h3>游历的计划</h3>
+            <dl>
+                <dt><img src="image/4_2/24.jpg" width="200px" height="130px"></dt>
+                <dd class="z1_text_1">
+                    太兴奋了，都忘记说游历计划了<br/>
+                    我跟罗总计划清明节从哈尔滨到横道河子玩一天<br/>
+                    晚上坐火车去牡丹江市区留宿并游玩2天，共预计350元<br/>
+                    ----------------------------------------------------少不入川<br/>&nbsp;<p/>
+                    <h6>上传者：招君  日期：2017.4.1  地点：中央大街</h6>
+                </dd>
+            </dl>
+        </div>
+        <div class="wz5">
+            <h3>中央大街</h3>
+            <dl>
+                <dt><img src="image/4_2/bg2.jpg" width="200px" height="130px"></dt>
+                <dd class="z1_text_1">
+                    带了一件毛衣，穿着大衣，背上书包，就此出发<br/>
+                    同行有你，愉快...<br/>
+                    -----------------------------------少不入川<p/>&nbsp;<p/>
+                    <h6>上传者：招君  日期：2017.4.1  地点：中央大街</h6>
+                </dd>
+                <div id="hpn2" style="display: none;">
+                    <dd>
+                        <img src="image/4_2/1.jpg" style="width: 45%">
+                        <img src="image/4_2/2.jpg" style="width: 45%">
+                        <img src="image/4_2/3.jpg" style="width: 45%">
+                        <img src="image/4_2/4.jpg" style="width: 45%">
+                        <img src="image/4_2/5.jpg" style="width: 45%">
+                        <img src="image/4_2/6.jpg" style="width: 45%">
+                        <img src="image/4_2/8.jpg" style="width: 91%">
+                        <img src="image/4_2/9.jpg" style="width: 45%">
+                        <img src="image/4_2/10.jpg" style="width: 45%">
+                        <img src="image/4_2/11.jpg" style="width: 45%">
+                        <img src="image/4_2/12.jpg" style="width: 45%">
+     
+                    </dd>
+                </div>
+                <h5 class="slide2">
+                    <a href="javascript:showdiv2()" id="strHref2" class="btn-slide2">更多照片</a>
+                </h5>
+            </dl>
+        </div>
+        <div class="wz6">
+            <h3>按捺不住要出发前往横道河子的心情了...</h3>
+            <dl>
+                <dt><img src="image/4_2/bg1.jpg" width="200px" height="130px"></dt>
+                <dd class="z1_text_1">
+                    第一次跟罗总游历...<br/>
+                    不知道会遇到哪些人和物。。。<br/>
+                    喜欢这种不明确的美<br/>
+                    我一定会enjoy这次游历的....<br/>
+                    ------------------------------少不入川&nbsp;<p/>
+                    <h6>上传者：招君  日期：2017.3.31  地点：哈商大A区11公寓626</h6>
+                </dd>
+            </dl>
+        </div>
+
+
+        <!--right shart-->
+        <div class="next_page" align="center">
+             <h4><a href="#" class="a_style">上一页</a>&nbsp;<a href="neixin.html" class="a_style">下一页</a></h4>
+        </div>
+        <!--right end-->
+        <!--footer start-->
+        <div class="neixin_footer">
+            <br align="center">联系方式： 手机：13030156966 || QQ：709066927 </br>
+        </div>
+        <!--footer end-->
+
+    </div>
+    <!--content end-->
+
+
+
+
+
+    <div class="wangjimain">
+        <div class="wangji">
+            <span id="t_d">00天</span>
+            <span id="t_h">00时</span>
+            <span id="t_m">00分</span>
+            <span id="t_s">00秒</span>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
