@@ -13,6 +13,17 @@
 .nav ul li a.jianjie1{font-size: 25px;}
 .nav ul li a.neixin1{font-size: 25px;}
 
+/*判定移动端还是电脑端*/
+
+/*电脑*/
+@media screen and (min-width: 769px) {
+    .wangjimain{display:block;}
+}
+/*小屏幕*/
+@media screen and (max-width: 768px) {  
+.wangjimain{display:none;}
+}
+
 
 
 
