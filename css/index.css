@@ -16,12 +16,14 @@
 /*判定移动端还是电脑端*/
 
 /*电脑*/
+/*
 @media screen and (min-width: 769px) {
-    .wangjimain{display:block;}
+    .wangji{display:block;}
 }
+*/
 /*小屏幕*/
-@media screen and (max-width: 768px) {  
-.wangjimain{display:none;}
+@media screen and (max-width: 1080px) {  
+.wangji{display:none;}
 }
 
 
