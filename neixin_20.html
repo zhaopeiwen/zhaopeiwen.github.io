@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="css/index.css"/>
 <link rel="stylesheet" href="css/style.css"/>
     <title>招君与卿</title>
+<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
     function getRTime(){
         var StartTime = new Date('2017/3/26 00:00:00');//开始时间
@@ -25,7 +26,14 @@
 
 
 /*第一个阅读全文*/
-    function showdiv(){
+    $(document).ready(function(){
+        $("#strHref").toggle(function(){
+            $("#hpn").slideDown(700);
+        },function(){
+            $("#hpn").slideUp(700);
+        });
+    });
+/*    function showdiv(){
         document.getElementById("hpn").style.display = "block";
         document.getElementById("strHref").href = "javascript:hidediv();";
         document.getElementById("strHref").innerHTML = "收起";
@@ -34,9 +42,16 @@
         document.getElementById("hpn").style.display = "none";
         document.getElementById("strHref").href = "javascript:showdiv();";
         document.getElementById("strHref").innerHTML = "阅读全文";        
-    } 
+    } */
 /*第二个阅读全文*/
-    function showdiv1(){
+    $(document).ready(function(){
+        $("#strHref1").toggle(function(){
+            $("#hpn1").slideDown(700);
+        },function(){
+            $("#hpn1").slideUp(700);
+        });
+    });
+ /*   function showdiv1(){
         document.getElementById("hpn1").style.display = "block";
         document.getElementById("strHref1").href = "javascript:hidediv1();";
         document.getElementById("strHref1").innerHTML = "收起";
@@ -45,9 +60,16 @@
         document.getElementById("hpn1").style.display = "none";
         document.getElementById("strHref1").href = "javascript:showdiv1();";
         document.getElementById("strHref1").innerHTML = "阅读全文";        
-    } 
+    } */
 /*第三个阅读全文*/
-    function showdiv2(){
+    $(document).ready(function(){
+        $("#strHref2").toggle(function(){
+            $("#hpn2").slideDown(700);
+        },function(){
+            $("#hpn2").slideUp(700);
+        });
+    });
+/*    function showdiv2(){
         document.getElementById("hpn2").style.display = "block";
         document.getElementById("strHref2").href = "javascript:hidediv2();";
         document.getElementById("strHref2").innerHTML = "收起";
@@ -56,7 +78,7 @@
         document.getElementById("hpn2").style.display = "none";
         document.getElementById("strHref2").href = "javascript:showdiv2();";
         document.getElementById("strHref2").innerHTML = "更多照片";
-    }
+    }*/
 </script>
 
 
