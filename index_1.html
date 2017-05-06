@@ -6,6 +6,45 @@
 <link rel="stylesheet" href="css/index.css"/>
 <link rel="stylesheet" href="css/style.css"/>
     <title>招君与卿</title>
+<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#strHref").toggle(function(){
+                $("#hpn").slideDown(1000);
+                document.getElementById("strHref").innerHTML="收起";
+            },function(){
+                $("#hpn").slideUp(500);
+                document.getElementById("strHref").innerHTML="查看路线";
+        });
+    });
+    $(document).ready(function(){
+        $("#strHref1").toggle(function(){
+                $("#hpn1").slideDown(1000);
+                document.getElementById("strHref1").innerHTML="收起";
+            },function(){
+                $("#hpn1").slideUp(500);
+                document.getElementById("strHref1").innerHTML="查看路线";
+        });
+    });
+    $(document).ready(function(){
+        $("#strHref2").toggle(function(){
+                $("#hpn2").slideDown(1000);
+                document.getElementById("strHref2").innerHTML="收起";
+            },function(){
+                $("#hpn2").slideUp(500);
+                document.getElementById("strHref2").innerHTML="查看路线";
+        });
+    });
+    $(document).ready(function(){
+        $("#strHref3").toggle(function(){
+                $("#hpn3").slideDown(1000);
+                document.getElementById("strHref3").innerHTML="收起";
+            },function(){
+                $("#hpn3").slideUp(500);
+                document.getElementById("strHref3").innerHTML="查看路线";
+        });
+    });
+</script>
 </head>
 <body class="body1">
 
@@ -32,8 +71,79 @@
 
 
     <!--content start-->
-    <div class="bucai">
-          <h2>本人不才，首页尚未构思完成，故现仅提供其余功能~</h2>
+    <div class="bucai" style="margin: 0px auto;width: 800px;">
+        <h1>大学路线规划</h1>
+        <div class="wz1">
+            <h3 style="color:silver">大二上（2016.09--2017.01）</h3>
+            <dl>
+                <div id="hpn" style="display: none;color: silver;">
+                    <dd>
+                    <p/>
+                        基于html5+css+javascript<br/>+jquery+jquerymobile技术独自完成web app开发；<br/>和基于<br/>html5+css+javascript+jquery技术开发个人网站<p/>          
+                        --------------------------------------------------------------------Done.&nbsp;<br/>
+                    </dd>
+                </div>
+                <h5 class="slide" style="background: silver;">
+                    <a href="javascript:showdiv()" id="strHref" class="btn-slide" style="color: silver;">查看路线</a>
+                </h5>
+            </dl>
+        </div>
+        <div class="wz1">
+            <h3 >大二下（2017.03--）</h3>
+            <dl>
+                <div id="hpn1" style="display: none;">
+                    <dd >
+                            <p/>
+                            维护已开发的个人网站<br/>努力尝试从web app向native app过渡<br/>学习基于Android studio平台<br/>并利用java+xml技术开发出第一款native app<p/>          
+                            --------------------------------------------------------------------Ing.&nbsp;<br/>
+                    </dd>
+                </div>
+                <h5 class="slide" >
+                    <a href="javascript:showdiv1()" id="strHref1" class="btn-slide" >查看路线</a>
+                </h5>
+            </dl>
+        </div>
+        <div class="wz1">
+            <h3 style="color:silver">大三上（2017.08--2017.12）</h3>
+            <dl>
+                <div id="hpn2" style="display: none;color: silver;">
+                    <dd>
+                    <p/>
+                            <p/>
+                            放弃更新维护web app<br/>转而更新维护大二下开发的native app<br/>
+                            开发基于金融与计算机相结合的native app<br/>
+                            <br/>
+                            学习php编程语言<br/>并利用所学的php技术修改大二的个人网页<br/>添加动态后台功能<p/>          
+                            --------------------------------------------------------------------Ing.&nbsp;<br/>
+                    </dd>
+                </div>
+                <h5 class="slide" style="background: silver;">
+                    <a href="javascript:showdiv2()" id="strHref2" class="btn-slide" style="color: silver;">查看路线</a>
+                </h5>
+            </dl>
+        </div>
+        <div class="wz1">
+            <h3 style="color:silver">大三寒假（2018.01--2018.02）</h3>
+            <dl>
+                <div id="hpn3" style="display: none;color: silver;">
+                    <dd>
+                    <p/>
+                        <p/>
+                            去深圳寻找短途工作<br/>尝试运用现成知识能否在深圳站住脚跟<br/>
+                            若面试成功则向学校请假<br/>
+                            <br/>
+                            若面试失败则继续回校学习需要补充的知识<p/> 
+                            --------------------------------------------------------------------Ing.&nbsp;<br/>
+                    </dd>
+                </div>
+                <h5 class="slide" style="background: silver;">
+                    <a href="javascript:showdiv3()" id="strHref3" class="btn-slide" style="color: silver;">查看路线</a>
+                </h5>
+            </dl>
+        </div>
+        <div class="index_1_footer">
+            <br align="center">联系方式： 手机：13030156966 || QQ：709066927 </br>
+        </div>
     </div>
     <!--content end-->
 
@@ -54,6 +164,7 @@
             </p>
         </div>
     <!--lianjie end-->
+
     </div>
     <!--right end-->
 
@@ -62,9 +173,7 @@
 
 
     <!--footer start-->
-    <div class="index_1_footer">
-        <br align="center">联系方式： 手机：13030156966 || QQ：709066927 </br>
-    </div>
+
     <!--footer end-->
 </body>
 </html>
